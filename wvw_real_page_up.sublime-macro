@@ -1,0 +1,4 @@
+[
+    {"command": "move", "args": {"by": "pages", "forward": false} },
+    {"command": "scroll_lines", "args": {"amount": 1.0 } },
+]
