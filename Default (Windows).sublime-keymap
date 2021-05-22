@@ -1,0 +1,27 @@
+[
+    { "keys": ["f13"], "command": "wvw_region_example", "args": {"example": "13 2 6"} },
+    { "keys": ["f1"], "command": "wvw_alignment" },
+    { "keys": ["shift+f1"], "command": "show_scope_name" },
+    { "keys": ["ctrl+f12"], "command": "cancel_build" },
+    { "keys": ["ctrl+'"], "command": "duplicate_line" },
+    { "keys": ["f7"], "command": "wvw_fold_all" },
+    { "keys": ["shift+f7"], "command": "wvw_mark_lines_containing", "args": {"my_option": "D" } },
+    { "keys": ["f8"], "command": "unfold_all" },
+    { "keys": ["shift+f8"], "command": "unfold" },
+    { "keys": ["shift+f12"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["alt+m"], "command": "wvw_mark_lines_containing", "args": {"my_option": "D" } },
+    { "keys": ["alt+shift+m"], "command": "wvw_mark_lines_containing", "args": {"my_option": "N" } },
+    { "keys": ["f11"], "command": "wvw_flip_caret"},
+    { "keys": ["keypad_enter"], "command":"chain",
+                "args": {
+                    "commands": [
+                        ["move", {"by": "lines", "forward": true} ],
+                        ["move_to", {"by": "lines", "forward": true, "to": "hardbol", "extend": false} ]
+                        ] } },
+    {  "keys": ["pagedown"],  "command": "run_macro_file",
+        "args": {"file": "res://Packages/User/wvw_real_page_down.sublime-macro"}
+    },
+    {  "keys": ["pageup"], "command": "run_macro_file",
+        "args": {"file": "res://Packages/User/wvw_real_page_up.sublime-macro"}
+    },
+]
