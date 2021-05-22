@@ -1,4 +1,4 @@
-#  05/05/21
+#  05/06/2021
 #   wvw_extend_select_cursors.py
 #
 #   Author: Warren Van Wyck   wvanwyck@outlook.com
@@ -21,13 +21,11 @@
 # window.run_command("edit_settings", {"base_file": "${packages}/Default/Default ($platform).sublime-mousemap", "default": "[\n\t$0\n]\n"})
 #
 #
-'''
-     //  05/05/21 WVW Add this stanza
-     {
-        "button": "button2", "modifiers": ["alt"],
-        "press_command": "wvw_extend_select_cursors",
-     },
-'''
+#     //  05/05/21 WVW Add this stanza -- or whatever you prefer
+#     {
+#        "button": "button1", "modifiers": ["alt"],
+#        "press_command": "wvw_extend_select",
+#     },
 
 
 import sublime
