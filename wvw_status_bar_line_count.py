@@ -9,7 +9,6 @@ import sublime_plugin
 last_change = time.time()
 update_interval = 2.0  #  two seconds
 
-
 class LineCountUpdateListener(sublime_plugin.EventListener):
     def update_line_count(self, view):
         line_count = view.rowcol(view.size())[0] + 1
