@@ -12,16 +12,9 @@
     { "keys": ["alt+m"], "command": "wvw_mark_lines_containing", "args": {"my_option": "D" } },
     { "keys": ["alt+shift+m"], "command": "wvw_mark_lines_containing", "args": {"my_option": "N" } },
     { "keys": ["f11"], "command": "wvw_flip_caret"},
-    { "keys": ["keypad_enter"], "command":"chain",
-                "args": {
-                    "commands": [
-                        ["move", {"by": "lines", "forward": true} ],
-                        ["move_to", {"by": "lines", "forward": true, "to": "hardbol", "extend": false} ]
-                        ] } },
-    {  "keys": ["pagedown"],  "command": "run_macro_file",
-        "args": {"file": "res://Packages/User/wvw_real_page_down.sublime-macro"}
-    },
-    {  "keys": ["pageup"], "command": "run_macro_file",
-        "args": {"file": "res://Packages/User/wvw_real_page_up.sublime-macro"}
-    },
+    { "keys": ["shift+pagedown"],  "command": "run_macro_file",
+        "args": {"file": "res://Packages/User/wvw_real_page_down.sublime-macro"}},
+    { "keys": ["shift+pageup"], "command": "run_macro_file",
+        "args": {"file": "res://Packages/User/wvw_real_page_up.sublime-macro"}}
+
 ]

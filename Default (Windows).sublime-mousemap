@@ -2,6 +2,6 @@
 //  05/05/21 WVW Add this stanza
     {
         "button": "button2", "modifiers": ["alt"],
-        "press_command": "extend_range_cursors",
+        "press_command": "wvw_extend_range_cursors",
     },
 ]

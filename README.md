@@ -1,4 +1,1 @@
-## Sublime Text Plugins 
-By a 30 year professed IBM CMS XEDIT editor junkie
-Beta version  05/22/2021
-
+﻿## Sublime Text Plugins The names of the plugins and commands have a prefix of 'wvw_'/'Wvw' in order to differentiate/blame.  Of course, anyone to change these for their preferences.By a 30 year professed IBM CMS XEDIT editor junkieBeta version  05/22/2021

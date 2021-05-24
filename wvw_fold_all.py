@@ -17,21 +17,13 @@
 #
 #    ---  Change History --
 #   04/03/21: Set bookmark for each line with a hit/match.
+#   05/24/21: Use wvw prefix to differentiate/blame.
 #
 #    Example key settings:
 #
-#    { "keys": ["f7"], "command": "fold_all" },
+#    { "keys": ["f7"], "command": "wvw_fold_all" },
 #    { "keys": ["f8"], "command": "unfold_all" },
 #    { "keys": ["shift+f8"], "command": "unfold" },           #  just one folded section/region
-#
-#  https://cnpagency.com/blog/creating-sublime-text-3-plugins-part-1/
-#
-#
-# This will execute your class and do the requested action. You’ll notice that ST3 automatically
-# parses the class name “ExampleCommand” as a command to execute since it has the text “Command” appended to the end.
-# Once ST3 recognizes this, it strips the “command” string off of the end
-# and takes the beginning as the actual name in lower case (ex: ExampleCommand = example).
-# Multiple capitals will result in underscore separators between words.
 #
 #
 import sublime

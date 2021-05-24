@@ -1,5 +1,5 @@
 #  05/05/21
-#   extend_range_cursors.py
+#   wvw_extend_range_cursors.py
 #
 #   Author: Warren Van Wyck   wvanwyck@outlook.com
 #
@@ -13,6 +13,7 @@
 #
 #  --- Change History ---
 #  05/08/21 WVW: Rename.
+#  05/24/21 WVW: Use wvw_ prefix to differentiate/blame.
 #
 #    Mouse binding for Windows:
 #
@@ -28,7 +29,7 @@
      //  05/05/21 WVW Add this stanza
      {
         "button": "button2", "modifiers": ["alt"],
-        "press_command": "extend_range_cursors",
+        "press_command": "wvw_extend_range_cursors",
      },
 '''
 
@@ -36,7 +37,7 @@
 import sublime
 import sublime_plugin
 
-class ExtendRangeCursorsCommand(sublime_plugin.TextCommand):
+class WvwExtendRangeCursorsCommand(sublime_plugin.TextCommand):
     def run(self, edit, event=None):
 
         end_of_line_mode_ind = False
