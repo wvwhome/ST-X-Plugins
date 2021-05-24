@@ -1,4 +1,11 @@
 [
 	{ "keys": ["super+alt+p"], "command": "show_scope_name" },
-	
+	{ "keys": ["ctrl+'"], "command": "duplicate_line" },
+    { "keys": ["f7"], "command": "wvw_fold_all" },
+    { "keys": ["shift+f7"], "command": "wvw_mark_lines_containing", "args": {"my_option": "D" } },
+    { "keys": ["f8"], "command": "unfold_all" },
+    { "keys": ["shift+f8"], "command": "unfold" },
+    { "keys": ["shift+f12"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["alt+m"], "command": "wvw_mark_lines_containing", "args": {"my_option": "D" } },
+    { "keys": ["alt+shift+m"], "command": "wvw_mark_lines_containing", "args": {"my_option": "N" } },
 ]

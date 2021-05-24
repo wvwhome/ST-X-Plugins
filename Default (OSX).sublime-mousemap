@@ -1,7 +1,7 @@
 [
 	//  05/05/21 WVW Add this stanza -- or whatever you prefer
      {
-        "button": "button2", "modifiers": ["alt"],
+       "button": "button2", "modifiers": ["alt"],
        "press_command": "wvw_extend_select_cursors",
    },
 ]
