@@ -14,11 +14,10 @@ The names of the plugins and commands have a prefix of 'wvw_'/'Wvw' in order to 
        },
   ```
 
-  Cursors are added from the first cursor to the line where the mouse is clicked (Alt + Right-Click).  Two modes:  if the first cursor is not at the end of the line, then a column position is preserved for those line s that have that column.  If the first cursor is at the end of the line, then cursors are added to the end of each line.
+  Cursors are added from the first cursor to the line where the mouse is clicked (Alt + Right-Click).  Two modes:  if the first cursor is not at the end of the line, then a column position is preserved for those lines that have that column.  If the first cursor is at the end of the line, then cursors are added to the end of each line.
 
 
 
 By a 30 year professed IBM CMS XEDIT/Rexx editor junkie -- uni-XEDIT and The Hessling Editor (THE). Yes, ST far surpasses these.
 
 Beta version  05/24/2021
-
