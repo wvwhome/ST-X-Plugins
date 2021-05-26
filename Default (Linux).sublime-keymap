@@ -9,4 +9,10 @@
     { "keys": ["shift+f12"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["alt+m"], "command": "wvw_mark_lines_containing", "args": {"my_option": "D" } },
     { "keys": ["alt+shift+m"], "command": "wvw_mark_lines_containing", "args": {"my_option": "N" } },
+    { "keys": ["keypad_enter"], "command":"chain",
+                "args": {
+                    "commands": [
+                        ["move", {"by": "lines", "forward": true} ],
+                        ["move_to", {"by": "lines", "forward": true, "to": "hardbol", "extend": false} ]
+                        ] } },
 ]
